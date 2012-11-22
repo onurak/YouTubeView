@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 @class YouTubeViewController;
 @interface ViewController : UIViewController {}
-@property (nonatomic, retain) IBOutlet UIButton   *youtubeButton;
-@property (nonatomic, retain) NSString                  *youtubeToDisplay;
+@property (nonatomic, retain) IBOutlet UIButton *youtubeButton;
+@property (nonatomic, retain) NSString			*youtubeToDisplay;
 
 - (IBAction)displayYouTube:(id)sender;
 @end
